@@ -8,4 +8,10 @@ public class myFrame {
     string pesan;
     int bilBulat;
     double bilDesimal;
+    
+    void cetakAttribute(){
+        system.out.println("isi dari pesan :"+pesan);
+        system.out.println("Isis dari bilBulat :"+bilBulat);
+        system.out.println("Isis dari bilBulat :"+bilDesimal);
+    }
 }
